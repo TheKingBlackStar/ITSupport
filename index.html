@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Ticket</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .custom-header {
+            text-align: center;
+            font-size: 28px;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+        .form-description {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        iframe {
+            width: 100%;
+            height: 900px;
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="custom-header">Submit a Ticket for the Help Desk</div>
+        <div class="form-description">Please fill out the form below to submit your ticket. Our team will get back to you as soon as possible.</div>
+        <iframe 
+            id="google-form"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSftNZR6cJM9nM0RC_EN6amOCmFCL0CbFqIixMhZcRdMLYK7qg/viewform?embedded=true">
+        </iframe>
+    </div>
+</body>
+</html>
